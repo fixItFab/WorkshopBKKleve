@@ -23,3 +23,7 @@ console.table("Ich wohne in " + ort);
 
 ort = "Kleve";
 console.log("Ich bin gerade in " + ort);
+
+const SekundenSeit1970 = Date.now();
+const heute = new Date(SekundenSeit1970);
+console.log("Aktuelles Datum/Uhrzeit:", heute);
